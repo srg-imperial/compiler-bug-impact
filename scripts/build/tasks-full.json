@@ -1036,13 +1036,13 @@
     {
         "chroot": "stretch",
         "esttime": 255,
-        "logfile": "/tmp/mafft_7.402-1_unstable.log",
+        "logfile": "/tmp/zsh_5.3.1_unstable.log",
         "modes": [
             "compiler-patched"
         ],
-        "source": "mafft",
+        "source": "zsh",
         "type": "rebuild-full",
-        "version": "7.307-1"
+        "version": "5.3.1"
     },
     {
         "chroot": "stretch",
@@ -3103,14 +3103,14 @@
     },
     {
         "chroot": "stretch",
-        "esttime": 263,
-        "logfile": "/tmp/spass_3.7-4_unstable.log",
+        "esttime": 180,
+        "logfile": "/tmp/leveldb_1.18_unstable.log",
         "modes": [
             "compiler-patched"
         ],
-        "source": "spass",
+        "source": "leveldb",
         "type": "rebuild-full",
-        "version": "3.7-4"
+        "version": "1.18"
     },
     {
         "chroot": "stretch",
