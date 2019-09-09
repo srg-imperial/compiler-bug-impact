@@ -92,6 +92,14 @@ grep -A2 "libraw" ~/compiler-bug-impact/data/Function_Logs/EMI/26323-func.txt
 ## Step-by-Step Instructions 
 Refer to the part in the [pdf guide](artifact.pdf)
 
+## Reduce the VM ova size
+```
+sudo apt-get clean
+sudo dd if=/dev/zero of=/EMPTY bs=1M
+sudo rm -f /EMPTY
+cat /dev/null > ~/.bash_history && history -c && exit
+```
+
 ## Remove the VM to save space (for linux terminal users)
 ```
 VBoxManage unregistervm --delete debian
