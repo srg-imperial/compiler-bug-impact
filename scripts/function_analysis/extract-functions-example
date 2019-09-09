@@ -21,7 +21,7 @@ for pkg in $dir/*/; do
   echo "processing $app..."
   # check if the application has different binaries
   if [ ! -d "$pkg"/buggy-func ]; then
-    echo " no different binaries; skip"
+    echo "  no different binaries; skip"
     continue
   fi 
   
