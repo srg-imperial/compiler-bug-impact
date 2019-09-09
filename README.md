@@ -92,7 +92,7 @@ grep -A2 "libraw" ~/compiler-bug-impact/data/Function_Logs/EMI/26323-func.txt
 ## Step-by-Step Instructions 
 Refer to the part in the [pdf guide](artifact.pdf)
 
-## Reduce the VM ova size
+## Reduce the VM ova size (inside the VM)
 ```
 sudo apt-get clean
 sudo dd if=/dev/zero of=/EMPTY bs=1M
