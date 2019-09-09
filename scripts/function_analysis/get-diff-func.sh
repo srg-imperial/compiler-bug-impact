@@ -15,7 +15,7 @@ for dir in $working_dir/*; do
     continue
   fi
   pkg=$(echo $dir | rev | cut -d/ -f1 | rev)
-  echo "collecting functions of $pkg..."
+  echo "  collecting functions of $pkg..."
   echo $pkg >> $opfile
   if [[ $pkg = 'zsh' ]] || [[ $pkg = 'leveldb' ]]; then
     java CSVReaderSpecial "$dir"/buggy-binary.csv "$dir"/fixed-binary.csv >> $opfile
@@ -28,5 +28,5 @@ if [ -f "$opfile" ]; then
   python get-data.py $opfile 
   echo "write results to $opfile"
 else
-  echo "no different functions found"
+  echo " no different functions found"
 fi
