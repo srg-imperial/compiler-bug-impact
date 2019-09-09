@@ -6,7 +6,7 @@
 
 Download the VM from the [artifact page](https://srg.doc.ic.ac.uk/projects/compiler-bugs/artifact.html)
 
-Go to the directory of the downloaded VM and use the md5 or md5sum command-line tool to generate the hash. It should be `edbd389e5607211cb5317dce87b885bf`.
+Go to the directory of the downloaded VM and use the md5 or md5sum command-line tool to generate the hash. It should be `4c867e06e02a76a05f9f93104da75a30`.
 
 
 Make sure you have at least 20 GB disk space to run the following example.
