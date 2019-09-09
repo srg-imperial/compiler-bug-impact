@@ -199,7 +199,7 @@ for pkg in $dir/*/; do
   done
   echo "done with $app"
 done
-rm -rf tmp $dir/*.tmp $dir/*.d $dir/*.nm $dir/*tmp
+rm -rf tmp $dir/*.tmp $dir/*.d $dir/*.nm $dir/*tmp $dir/*disasb
 cd $curr_folder
 ./get-diff-func.sh "$dir"
 
