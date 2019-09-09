@@ -15,7 +15,7 @@ for dir in $working_dir/*; do
     continue
   fi
   pkg=$(echo $dir | rev | cut -d/ -f1 | rev)
-  echo "  collecting functions of $pkg..."
+  echo "collecting functions of $pkg..."
   echo $pkg >> $opfile
   if [[ $pkg = 'zsh' ]] || [[ $pkg = 'leveldb' ]]; then
     java CSVReaderSpecial "$dir"/buggy-binary.csv "$dir"/fixed-binary.csv >> $opfile
