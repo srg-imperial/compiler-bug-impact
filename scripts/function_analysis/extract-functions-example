@@ -197,7 +197,7 @@ for pkg in $dir/*/; do
     } < lines.tmp
     rm -f "$pkg"*.d "$pkg"*.nm "$pkg"*.tmp "$pkg"tmp lines.tmp
   done
-  echo "done with $app"
+  echo "  done with $app"
 done
 rm -rf tmp $dir/*.tmp $dir/*.d $dir/*.nm $dir/*tmp $dir/*disasb
 cd $curr_folder
